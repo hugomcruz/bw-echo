@@ -6,8 +6,8 @@ on:
 env:
   REGISTRY: harbor.bnov.net
   PROJECT: public
-  APP_NAME: test-box
-  FULL_IMAGE: harbor.bnov.net/public/test-box
+  APP_NAME: bw-echo
+  FULL_IMAGE: harbor.bnov.net/public/bw-echo
   
 jobs:
   build:
