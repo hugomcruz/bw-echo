@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
   
 env:
-  REGISTRY: harbor.bnov.net
-  PROJECT: public
+  REGISTRY: docker.io
+  PROJECT: hugomcruz
   APP_NAME: bw-echo
-  FULL_IMAGE: harbor.bnov.net/public/bw-echo
+  FULL_IMAGE: docker.io/hugomcruz/bw-echo
   
 jobs:
   build:
